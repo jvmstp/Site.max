@@ -1,0 +1,19 @@
+#inc1{max-height: 200px;
+}
+#inc3{
+    max-height: 200px;
+}
+#inc3,#inc1{
+    opacity: 10;
+}
+#incp3{
+    margin-top: -170px;
+}
+
+#incsp3{
+    margin-top: 10px;
+}
+
+#inc2{
+    max-height: 300px;
+}

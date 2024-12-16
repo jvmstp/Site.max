@@ -1,0 +1,47 @@
+.disclaimer-premium {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff; /* Adiciona um fundo para garantir que o texto seja legível, se necessário */
+}
+
+.disclaimer-premium img {
+    
+    height: 100%; /* Ajusta a altura da imagem para 100% da altura do contêiner pai */
+    max-height: 50px; /* Define a altura máxima da imagem */
+    width: 100%; /* Ajusta a largura automaticamente para manter a proporção */
+    object-fit: contain; /* Garante que a imagem caiba dentro do contêiner sem ser cortada */
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
